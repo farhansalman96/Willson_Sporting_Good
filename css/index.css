@@ -117,3 +117,23 @@
     .support , .social-media{
         margin-top: 10px;
     }
+@media(max-width: 400px) {
+        .about {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .about img {
+            display: flex;
+            /* justify-content: center; */
+            margin: 10% !important;
+            height: 30vh !important;
+            width: 90% !important;
+        }
+
+        .about-heading {
+            display: flex;
+            justify-content: center;
+        }
+
+    }
